@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "dimensionalworldreborn:block/mining_portal_ns"
+    },
+    "axis=y": {
+      "model": "dimensionalworldreborn:block/mining_portal_ud"
+    },
+    "axis=z": {
+      "model": "dimensionalworldreborn:block/mining_portal_ew"
+    }
+  }
+}

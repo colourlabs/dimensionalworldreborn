@@ -1,0 +1,6 @@
+{
+  "textures": {
+    "particle": "dimensionalworldreborn:block/mining_portal",
+    "portal": "dimensionalworldreborn:block/mining_portal"
+  }
+}

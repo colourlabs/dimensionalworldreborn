@@ -18,7 +18,10 @@ public class ModCreativeTabs {
             .icon(() -> new ItemStack(ModItems.PORTAL_FRAME_ITEM.get()))
             .displayItems((params, output) -> {
                 output.accept(ModBlocks.PORTAL_FRAME.get());
-                // add the rest as you register them
+                output.accept(ModBlocks.STICKY_ORE.get());
+                output.accept(ModBlocks.CLAY_ORE.get());
+                output.accept(ModItems.MINING_MULTITOOL.get());
+                output.accept(ModItems.DIMENSION_CHANGER.get());
             })
             .build());
 }

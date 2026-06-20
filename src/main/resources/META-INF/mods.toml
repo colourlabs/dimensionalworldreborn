@@ -5,7 +5,7 @@ issueTrackerURL = "https://github.com/colourlabs/dimensionalworldreborn/issues"
 
 [[mods]]
 modId = "dimensionalworldreborn"
-version = "${file.jarVersion}"
+version="${mod_version}"
 displayName = "DimensionalWorldReborn"
 displayURL = "https://github.com/colourlabs/dimensionalworldreborn"
 logoFile = "logo.png"

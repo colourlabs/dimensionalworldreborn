@@ -1,0 +1,13 @@
+{
+  "creativetab.dimensionalworldreborn": "Dimensional World Reborn",
+  "itemGroup.dimensionalworldreborn": "Dimensional World Reborn",
+  "block.dimensionalworldreborn.portal_frame": "Portal Frame",
+  "block.dimensionalworldreborn.mining_portal": "Mining Portal",
+  "block.dimensionalworldreborn.sticky_ore": "Sticky Ore",
+  "block.dimensionalworldreborn.clay_ore": "Clay Ore",
+  "item.dimensionalworldreborn.mining_multitool": "Mining Multitool",
+  "item.dimensionalworldreborn.dimension_changer": "Dimension Changer",
+  "dimensionalworldreborn.info.portal_info": "To go through the portal, you have to sneak in it.",
+  "dimensionalworldreborn.info.portal_not_implemented": "Mining world teleporting is not implemented yet.",
+  "dimensionalworldreborn.info.teleport_not_implemented": "The mining world is not implemented yet."
+}
