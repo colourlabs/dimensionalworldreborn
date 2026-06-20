@@ -1,0 +1,30 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+license = "CC-BY-NC-3.0"
+issueTrackerURL = "https://github.com/colourlabs/dimensionalworldreborn/issues"
+
+[[mods]]
+modId = "dimensionalworldreborn"
+version = "${file.jarVersion}"
+displayName = "DimensionalWorldReborn"
+displayURL = "https://github.com/colourlabs/dimensionalworldreborn"
+logoFile = "logo.png"
+credits = "Inspired by Aroma1997's Dimensional World"
+authors = "colourlabs"
+description = '''
+A mining dimension mod.
+'''
+
+[[dependencies.dimensionalworldreborn]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dimensionalworldreborn]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"
