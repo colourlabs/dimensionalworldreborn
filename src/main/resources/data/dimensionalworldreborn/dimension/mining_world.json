@@ -1,0 +1,11 @@
+{
+  "type": "dimensionalworldreborn:mining_world",
+  "generator": {
+    "type": "dimensionalworldreborn:mining",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "dimensionalworldreborn:mining_world"
+    },
+    "settings": "minecraft:overworld"
+  }
+}

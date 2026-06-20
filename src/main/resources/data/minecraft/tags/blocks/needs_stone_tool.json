@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "dimensionalworldreborn:portal_frame",
+    "dimensionalworldreborn:sticky_ore",
+    "dimensionalworldreborn:clay_ore"
+  ]
+}

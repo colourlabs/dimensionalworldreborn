@@ -1,6 +1,5 @@
 package net.colourlabs.dimensionalworldreborn.item;
 
-import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
@@ -38,7 +37,7 @@ public class DimensionChangerItem extends Item {
     @Override
     public ItemStack finishUsingItem(ItemStack stack, Level level, LivingEntity entity) {
         if (!level.isClientSide() && entity instanceof ServerPlayer player) {
-            player.displayClientMessage(Component.translatable("dimensionalworldreborn.info.teleport_not_implemented"), true);
+            net.colourlabs.dimensionalworldreborn.world.MiningWorldTeleporter.teleport(player);
         }
 
         return stack;
