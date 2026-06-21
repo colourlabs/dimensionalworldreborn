@@ -16,12 +16,6 @@ public class ModItems {
     public static final RegistryObject<Item> PORTAL_FRAME_ITEM = ITEMS.register("portal_frame",
         () -> new BlockItem(ModBlocks.PORTAL_FRAME.get(), new Item.Properties()));
 
-    public static final RegistryObject<Item> STICKY_ORE_ITEM = ITEMS.register("sticky_ore",
-        () -> new BlockItem(ModBlocks.STICKY_ORE.get(), new Item.Properties()));
-
-    public static final RegistryObject<Item> CLAY_ORE_ITEM = ITEMS.register("clay_ore",
-        () -> new BlockItem(ModBlocks.CLAY_ORE.get(), new Item.Properties()));
-
     public static final RegistryObject<Item> MINING_MULTITOOL = ITEMS.register("mining_multitool",
         () -> new MiningMultitoolItem(new Item.Properties()));
 

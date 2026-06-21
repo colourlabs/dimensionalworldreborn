@@ -27,16 +27,4 @@ public class ModBlocks {
             .strength(-1.0F)
             .pushReaction(PushReaction.BLOCK)
             .mapColor(MapColor.COLOR_PURPLE)));
-
-    public static final RegistryObject<Block> STICKY_ORE = BLOCKS.register("sticky_ore",
-        () -> new Block(BlockBehaviour.Properties.of()
-            .strength(2.5F)
-            .requiresCorrectToolForDrops()
-            .mapColor(MapColor.STONE)));
-
-    public static final RegistryObject<Block> CLAY_ORE = BLOCKS.register("clay_ore",
-        () -> new Block(BlockBehaviour.Properties.of()
-            .strength(2.5F)
-            .requiresCorrectToolForDrops()
-            .mapColor(MapColor.STONE)));
 }

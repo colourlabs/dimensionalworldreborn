@@ -6,11 +6,11 @@ issueTrackerURL = "https://github.com/colourlabs/dimensionalworldreborn/issues"
 [[mods]]
 modId = "dimensionalworldreborn"
 version="${mod_version}"
-displayName = "DimensionalWorldReborn"
+displayName = "Dimensional World Reborn"
 displayURL = "https://github.com/colourlabs/dimensionalworldreborn"
 logoFile = "logo.png"
 credits = "Inspired by Aroma1997's Dimensional World"
-authors = "colourlabs"
+authors = "colourlabs (RGB)"
 description = '''
 A mining dimension mod.
 '''
